@@ -1,0 +1,55 @@
+{
+  "targets": {
+    "swap": {}
+  },
+  "passes": [
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:main"
+        },
+        {
+          "sampler_name": "Depth",
+          "target": "minecraft:main",
+          "use_depth_buffer": true
+        }
+      ],
+      "output": "swap",
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "zenith:post/world_grade",
+      "uniforms": {
+        "ZenithPost": [
+          { "name": "ZenithSaturation", "type": "float", "value": 1.0 },
+          { "name": "NearPlane", "type": "float", "value": 0.05 },
+          { "name": "FarPlane", "type": "float", "value": 256.0 },
+          { "name": "TanHalfFov", "type": "float", "value": 0.7 },
+          { "name": "Aspect", "type": "float", "value": 1.0 },
+          { "name": "Pitch", "type": "float", "value": 0.0 },
+          { "name": "FogEnvironmentalStart", "type": "float", "value": 3.0E38 },
+          { "name": "FogEnvironmentalEnd", "type": "float", "value": 3.0E38 },
+          { "name": "FogRenderDistanceStart", "type": "float", "value": 3.0E38 },
+          { "name": "FogRenderDistanceEnd", "type": "float", "value": 3.0E38 },
+          { "name": "ZenithGrade", "type": "vec4", "value": [1.0, 1.0, 1.0, 1.0] },
+          { "name": "FogColor", "type": "vec4", "value": [0.0, 0.0, 0.0, 0.0] }
+        ]
+      }
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "swap"
+        }
+      ],
+      "output": "minecraft:main",
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "uniforms": {
+        "BlitConfig": [
+          { "name": "ColorModulate", "type": "vec4", "value": [1.0, 1.0, 1.0, 1.0] }
+        ]
+      }
+    }
+  ]
+}

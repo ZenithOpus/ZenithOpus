@@ -1,0 +1,77 @@
+{
+  "targets": {
+    "swap": {}
+  },
+  "passes": [
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:entity_outline"
+        }
+      ],
+      "output": "swap",
+      "vertex_shader": "zenith:post/screenquad_texel",
+      "fragment_shader": "zenith:post/projectile_frost",
+      "uniforms": {
+        "ZenithPost": [
+          {
+            "name": "FireColor",
+            "type": "vec4",
+            "value": [
+              0.45,
+              0.8,
+              1.0,
+              0.95
+            ]
+          },
+          {
+            "name": "EmberColor",
+            "type": "vec4",
+            "value": [
+              0.85,
+              0.95,
+              1.0,
+              0.95
+            ]
+          },
+          {
+            "name": "Time",
+            "type": "float",
+            "value": 0.0
+          },
+          {
+            "name": "KeepForeign",
+            "type": "float",
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "swap"
+        }
+      ],
+      "output": "minecraft:entity_outline",
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

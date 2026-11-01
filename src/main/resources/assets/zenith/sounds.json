@@ -1,0 +1,72 @@
+{
+  "gui_open": {
+    "sounds": [
+      "zenith:gui_open"
+    ]
+  },
+  "gui_close": {
+    "sounds": [
+      "zenith:gui_close"
+    ]
+  },
+  "module_enable": {
+    "sounds": [
+      "zenith:module_enable"
+    ]
+  },
+  "module_disable": {
+    "sounds": [
+      "zenith:module_disable"
+    ]
+  },
+  "enable4": {
+    "sounds": [
+      "zenith:enable4"
+    ]
+  },
+  "disable4": {
+    "sounds": [
+      "zenith:disable4"
+    ]
+  },
+  "category_switch": {
+    "sounds": [
+      "zenith:category_switch"
+    ]
+  },
+  "slider_step": {
+    "sounds": [
+      "zenith:slider_step"
+    ]
+  },
+  "click_right": {
+    "sounds": [
+      "zenith:click_right"
+    ]
+  },
+  "click_left": {
+    "sounds": [
+      "zenith:click_left"
+    ]
+  },
+  "bind_set": {
+    "sounds": [
+      "zenith:bind_set"
+    ]
+  },
+  "bind_clear": {
+    "sounds": [
+      "zenith:bind_clear"
+    ]
+  },
+  "input_confirm": {
+    "sounds": [
+      "zenith:input_confirm"
+    ]
+  },
+  "input_cancel": {
+    "sounds": [
+      "zenith:input_cancel"
+    ]
+  }
+}

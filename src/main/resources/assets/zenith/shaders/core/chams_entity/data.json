@@ -1,0 +1,153 @@
+{
+  "vertex": "zenith:core/chams_entity/vertex",
+  "fragment": "zenith:core/chams_entity/fragment",
+  "samplers": [
+    {
+      "name": "Sampler0"
+    }
+  ],
+  "uniforms": [
+    {
+      "name": "ModelViewMat",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "ProjMat",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "ColorModulator",
+      "type": "float",
+      "count": 4,
+      "values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "name": "iTime",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    },
+    {
+      "name": "PrimaryColor",
+      "type": "float",
+      "count": 3,
+      "values": [
+        0.2,
+        0.9,
+        1.0
+      ]
+    },
+    {
+      "name": "SecondaryColor",
+      "type": "float",
+      "count": 3,
+      "values": [
+        1.0,
+        0.35,
+        0.72
+      ]
+    },
+    {
+      "name": "AlphaMul",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1.0
+      ]
+    },
+    {
+      "name": "FresnelPower",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1.8
+      ]
+    },
+    {
+      "name": "Freq",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.03
+      ]
+    },
+    {
+      "name": "ColorTransfer",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.3
+      ]
+    },
+    {
+      "name": "Brightness",
+      "type": "float",
+      "count": 1,
+      "values": [
+        1.0
+      ]
+    },
+    {
+      "name": "MirrorEnabled",
+      "type": "float",
+      "count": 1,
+      "values": [
+        0.0
+      ]
+    },
+    {
+      "name": "ScreenSize",
+      "type": "float",
+      "count": 2,
+      "values": [
+        1.0,
+        1.0
+      ]
+    }
+  ]
+}

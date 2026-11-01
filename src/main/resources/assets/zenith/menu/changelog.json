@@ -1,0 +1,11 @@
+{
+  "entries": [
+    { "text": "menu.changelog.1", "added": true },
+    { "text": "menu.changelog.2", "added": true },
+    { "text": "menu.changelog.3", "added": true },
+    { "text": "menu.changelog.4", "added": true },
+    { "text": "menu.changelog.5", "added": true },
+    { "text": "menu.changelog.6", "added": false },
+    { "text": "menu.changelog.7", "added": false }
+  ]
+}

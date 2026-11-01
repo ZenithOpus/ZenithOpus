@@ -1,0 +1,941 @@
+{
+  "dataset": "C:\\source\\ZenithDLC\\run\\rotation_recordings\\rotation_dataset_v13_simpy_prepared_v2.csv",
+  "rows": 123324,
+  "segments": 1453,
+  "windows": 98358,
+  "train_windows": 85604,
+  "val_windows": 12754,
+  "mouse_gcd": 0.21217355,
+  "policy_config": {
+    "schema_version": 17,
+    "phase_names": [
+      "WAIT_REACTION",
+      "BALLISTIC_BURST",
+      "HOMING_CORRECTION",
+      "BRAKE_SETTLE",
+      "HOLD_TRACK",
+      "REACQUIRE"
+    ],
+    "phase_thresholds": {
+      "move_count_threshold": 0.5,
+      "hold_min_inside_ticks": 11.0,
+      "hold_edge_margin": 0.11122387647628784,
+      "hold_center_absmax": 122.11433410644531,
+      "hold_vel_absmax": 1.0,
+      "hold_delta_absmax": 50.96286392211914,
+      "hold_lead_absmax": 123.03172063827515,
+      "brake_after_enter_ticks": 4.0,
+      "brake_vel_absmax_min": 14.0,
+      "brake_active_burst_min": 5.0,
+      "brake_lead_absmax": 82.1706600189209,
+      "brake_center_absmax": 73.7659683227539,
+      "brake_delta_absmax": 38.94080352783203,
+      "reacquire_outside_ticks": 4.0,
+      "reacquire_center_absmax": 655.4517211914062,
+      "reacquire_fatigue_min": 0.24537381529808044,
+      "wait_center_absmax": 77.63227844238281,
+      "wait_vel_absmax": 3.0,
+      "wait_delta_absmax": 22.72821807861328,
+      "wait_outside_ticks_max": 2.0
+    },
+    "threshold_sources": {
+      "move": {
+        "move_count_threshold": 0.5,
+        "min_nonzero_count_sample": 1.0,
+        "source": "half_of_lowest_nonzero_count_quantile"
+      },
+      "quantiles": {
+        "hold_inside_ticks_q": 0.25,
+        "hold_edge_margin_q": 0.1,
+        "hold_center_q": 0.95,
+        "hold_vel_q": 0.75,
+        "hold_delta_q": 0.9,
+        "hold_lead_q": 0.9,
+        "brake_enter_ticks_q": 0.75,
+        "brake_vel_q": 0.9,
+        "brake_active_burst_q": 0.75,
+        "brake_lead_q": 0.75,
+        "brake_center_q": 0.75,
+        "brake_delta_q": 0.75,
+        "reacquire_outside_ticks_q": 0.5,
+        "reacquire_center_q": 0.75,
+        "reacquire_fatigue_q": 0.75,
+        "wait_center_q": 0.25,
+        "wait_vel_q": 0.75,
+        "wait_delta_q": 0.5,
+        "wait_outside_ticks_q": 0.5,
+        "sign_small_count_q": 0.1,
+        "sign_anchor_count_q": 0.05,
+        "sign_lead_anchor_q": 0.1,
+        "sign_prev_vel_anchor_q": 0.2,
+        "opposite_residual_ratio_q": 0.75,
+        "axis_zero_lead_q": 0.9,
+        "axis_zero_vel_q": 0.9,
+        "axis_zero_delta_q": 0.9,
+        "axis_move_lead_q": 0.15,
+        "axis_guard_max_count_q": 0.1
+      },
+      "mask_sources": {
+        "stable_hold_rows": "prep_phase == sparse_inside_zero, fallback late inside zero",
+        "brake_profile_rows": "inside zero plus lock/settle/deceleration velocity",
+        "brake_limit_rows": "brake_profile_rows plus lock/settle deceleration rows"
+      }
+    },
+    "controller_profiles": {
+      "WAIT_REACTION": {
+        "lead_ticks": 0.0,
+        "kp": [
+          0.0,
+          0.0
+        ],
+        "carry": [
+          0.0,
+          0.0
+        ],
+        "mae": 0.0,
+        "rows": 4306,
+        "source": "zero_motion_profile_from_outside_zero_rows"
+      },
+      "BALLISTIC_BURST": {
+        "lead_ticks": 0.0,
+        "kp": [
+          0.14324565814207546,
+          0.07270478956669316
+        ],
+        "carry": [
+          0.6774438783972418,
+          0.5882886388065393
+        ],
+        "mae": 18.895725334519746,
+        "axis_mae": [
+          26.77157337056827,
+          11.019877298471222
+        ],
+        "rows": 38681,
+        "source": "outside_move"
+      },
+      "HOMING_CORRECTION": {
+        "lead_ticks": 1.0,
+        "kp": [
+          0.15331535210231836,
+          0.03488429507764504
+        ],
+        "carry": [
+          0.68924626646283,
+          0.5613030690534665
+        ],
+        "mae": 13.256780780795454,
+        "axis_mae": [
+          17.867052252309424,
+          8.646509309281484
+        ],
+        "rows": 29918,
+        "source": "inside_move"
+      },
+      "BRAKE_SETTLE": {
+        "mode": "zero_motion",
+        "controller_kind": "zero_motion",
+        "lead_ticks": 1.0,
+        "kp": [
+          0.0,
+          0.0
+        ],
+        "carry": [
+          0.0,
+          0.0
+        ],
+        "mae": 0.0,
+        "rows": 9285,
+        "source": "zero_motion_profile_from_inside_zero_brake_rows"
+      },
+      "HOLD_TRACK": {
+        "lead_ticks": 1.0,
+        "kp": [
+          0.0,
+          0.0
+        ],
+        "carry": [
+          0.0,
+          0.0
+        ],
+        "mae": 0.0,
+        "rows": 4779,
+        "source": "zero_motion_profile_from_stable_inside_zero_rows"
+      },
+      "REACQUIRE": {
+        "lead_ticks": 0.0,
+        "kp": [
+          0.21790607007710605,
+          0.2517965201876641
+        ],
+        "carry": [
+          0.05046738382964956,
+          0.020858098269553926
+        ],
+        "mae": 11.585065853037273,
+        "axis_mae": [
+          18.68280960470785,
+          4.487322101366696
+        ],
+        "rows": 9548,
+        "source": "recovery_outside"
+      }
+    },
+    "motor_limits": {
+      "WAIT_REACTION": {
+        "max_velocity": [
+          0.0,
+          0.0
+        ],
+        "max_acc": [
+          65.0,
+          27.0
+        ],
+        "max_jerk": [
+          125.0,
+          46.0
+        ],
+        "residual_count": [
+          0.0,
+          0.0
+        ],
+        "rows": 4306,
+        "source": "behavior_source_weighted_quantile",
+        "quantiles": {
+          "motor_limit_q": 0.995,
+          "residual_limit_q": 0.95
+        }
+      },
+      "BALLISTIC_BURST": {
+        "max_velocity": [
+          323.0,
+          118.0
+        ],
+        "max_acc": [
+          208.0,
+          91.0
+        ],
+        "max_jerk": [
+          251.0,
+          118.0
+        ],
+        "residual_count": [
+          97.84348951837697,
+          39.95588275629015
+        ],
+        "rows": 38681,
+        "source": "behavior_source_weighted_quantile",
+        "quantiles": {
+          "motor_limit_q": 0.995,
+          "residual_limit_q": 0.95
+        }
+      },
+      "HOMING_CORRECTION": {
+        "max_velocity": [
+          281.0,
+          117.0
+        ],
+        "max_acc": [
+          181.0,
+          82.0
+        ],
+        "max_jerk": [
+          253.0,
+          128.0
+        ],
+        "residual_count": [
+          67.34268906404861,
+          31.0
+        ],
+        "rows": 29918,
+        "source": "behavior_source_weighted_quantile",
+        "quantiles": {
+          "motor_limit_q": 0.995,
+          "residual_limit_q": 0.95
+        }
+      },
+      "BRAKE_SETTLE": {
+        "max_velocity": [
+          57.0,
+          29.0
+        ],
+        "max_acc": [
+          57.0,
+          29.0
+        ],
+        "max_jerk": [
+          107.0,
+          50.0
+        ],
+        "residual_count": [
+          0.0,
+          0.0
+        ],
+        "rows": 9285,
+        "source": "behavior_source_weighted_quantile",
+        "quantiles": {
+          "motor_limit_q": 0.995,
+          "residual_limit_q": 0.95
+        }
+      },
+      "HOLD_TRACK": {
+        "max_velocity": [
+          0.0,
+          0.0
+        ],
+        "max_acc": [
+          27.0,
+          21.0
+        ],
+        "max_jerk": [
+          46.0,
+          34.0
+        ],
+        "residual_count": [
+          0.0,
+          0.0
+        ],
+        "rows": 4779,
+        "source": "behavior_source_weighted_quantile",
+        "quantiles": {
+          "motor_limit_q": 0.995,
+          "residual_limit_q": 0.95
+        }
+      },
+      "REACQUIRE": {
+        "max_velocity": [
+          213.0,
+          105.0
+        ],
+        "max_acc": [
+          252.0,
+          107.0
+        ],
+        "max_jerk": [
+          309.0,
+          115.0
+        ],
+        "residual_count": [
+          71.41100958526762,
+          46.865221590955585
+        ],
+        "rows": 9548,
+        "source": "behavior_source_weighted_quantile",
+        "quantiles": {
+          "motor_limit_q": 0.995,
+          "residual_limit_q": 0.95
+        }
+      }
+    },
+    "runtime_stop_control": {
+      "revision": "v17_momentum_geometry_release_dataset_2026_06_27_b",
+      "zero_residual_phases": [
+        "WAIT_REACTION",
+        "BRAKE_SETTLE",
+        "HOLD_TRACK"
+      ],
+      "hard_zero_count_phases": [
+        "WAIT_REACTION",
+        "HOLD_TRACK"
+      ],
+      "brake_mode": "smooth_release_floor_then_dataset_acc_jerk_limits",
+      "inside_learned_move_gate": true,
+      "inside_move_gate_power": 1.0,
+      "momentum_release_any_phase": true,
+      "momentum_residual_floor": true,
+      "momentum_residual_floor_ratio": 0.3,
+      "smooth_stop_release": true,
+      "smooth_stop_release_phases": [
+        "BRAKE_SETTLE",
+        "HOLD_TRACK"
+      ],
+      "smooth_stop_release_low_move_phases": [
+        "HOMING_CORRECTION"
+      ],
+      "smooth_stop_release_curve_enabled": true,
+      "smooth_stop_release_curve_ticks": 4,
+      "smooth_stop_release_curve_bins": [
+        0.0,
+        16.0,
+        32.0,
+        64.0,
+        128.0,
+        256.0,
+        512.0,
+        1024.0,
+        1000000000.0
+      ],
+      "smooth_stop_release_curve_ratio": [
+        [
+          [
+            0.8571428571428571,
+            0.8421052631578947,
+            0.868421052631579,
+            0.8653846153846154,
+            0.8903225806451613,
+            0.7630922693266833,
+            0.25,
+            0.25
+          ],
+          [
+            0.25,
+            0.4090909090909091,
+            0.4,
+            0.4396551724137931,
+            0.4868421052631579,
+            0.4444444444444444,
+            0.3822222222222222,
+            0.3822222222222222
+          ],
+          [
+            0.2,
+            0.4090909090909091,
+            0.5185185185185185,
+            0.525,
+            0.88,
+            0.65,
+            0.65,
+            0.65
+          ],
+          [
+            0.25,
+            0.4375,
+            0.45161290322580644,
+            0.5535714285714286,
+            0.88,
+            0.55972928,
+            0.55972928,
+            0.55972928
+          ]
+        ],
+        [
+          [
+            0.8666666666666667,
+            0.8666666666666667,
+            0.8301886792452831,
+            0.7631578947368421,
+            0.6838709677419355,
+            0.6838709677419355,
+            0.6838709677419355,
+            0.6838709677419355
+          ],
+          [
+            0.375,
+            0.48148148148148145,
+            0.45098039215686275,
+            0.34375,
+            0.25,
+            0.215,
+            0.215,
+            0.215
+          ],
+          [
+            0.3333333333333333,
+            0.5294117647058824,
+            0.6,
+            0.8105263157894737,
+            0.5994652631578946,
+            0.5994652631578946,
+            0.5994652631578946,
+            0.5994652631578946
+          ],
+          [
+            0.25,
+            0.5769230769230769,
+            0.25,
+            0.7142857142857143,
+            0.4543257142857143,
+            0.4543257142857143,
+            0.4543257142857143,
+            0.4543257142857143
+          ]
+        ]
+      ],
+      "smooth_stop_release_curve_cap": [
+        [
+          [
+            0.92,
+            0.92,
+            0.92,
+            0.912621359223301,
+            0.92,
+            0.8321167883211679,
+            0.25,
+            0.37
+          ],
+          [
+            0.9090909090909091,
+            0.8461538461538461,
+            0.8205128205128205,
+            0.7971014492753623,
+            0.92,
+            0.47619047619047616,
+            0.5022222222222221,
+            0.5022222222222221
+          ],
+          [
+            0.92,
+            0.875,
+            0.875,
+            0.8780487804878049,
+            0.92,
+            0.778688,
+            0.778688,
+            0.778688
+          ],
+          [
+            0.92,
+            0.92,
+            0.8857142857142857,
+            0.92,
+            0.92,
+            0.7163929600000001,
+            0.7163929600000001,
+            0.7163929600000001
+          ]
+        ],
+        [
+          [
+            0.92,
+            0.92,
+            0.9142857142857143,
+            0.8405797101449275,
+            0.7573529411764706,
+            0.8038709677419354,
+            0.8038709677419354,
+            0.8038709677419354
+          ],
+          [
+            0.92,
+            0.875,
+            0.8695652173913043,
+            0.7714285714285715,
+            0.25,
+            0.33499999999999996,
+            0.33499999999999996,
+            0.33499999999999996
+          ],
+          [
+            0.92,
+            0.9166666666666666,
+            0.9142857142857143,
+            0.92,
+            0.778688,
+            0.778688,
+            0.778688,
+            0.778688
+          ],
+          [
+            0.92,
+            0.8235294117647058,
+            0.92,
+            0.92,
+            0.7163929600000001,
+            0.7163929600000001,
+            0.7163929600000001,
+            0.7163929600000001
+          ]
+        ]
+      ],
+      "smooth_stop_release_curve_rows": [
+        [
+          [
+            8258,
+            12845,
+            11494,
+            6778,
+            2392,
+            227,
+            1,
+            0
+          ],
+          [
+            9564,
+            4696,
+            3739,
+            1847,
+            509,
+            7,
+            0,
+            0
+          ],
+          [
+            4261,
+            1164,
+            739,
+            247,
+            37,
+            0,
+            0,
+            0
+          ],
+          [
+            1189,
+            227,
+            95,
+            25,
+            5,
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            11722,
+            14038,
+            6190,
+            1067,
+            58,
+            0,
+            0,
+            0
+          ],
+          [
+            11765,
+            4008,
+            1110,
+            122,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            5218,
+            654,
+            114,
+            11,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1577,
+            83,
+            11,
+            2,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      ],
+      "smooth_stop_release_curve_stage_names": [
+        "after_peak_tick_1",
+        "tail_tick_2",
+        "tail_tick_3",
+        "tail_tick_4"
+      ],
+      "smooth_stop_release_min_prev_vel": [
+        44.0,
+        27.0
+      ],
+      "smooth_stop_release_terminal_prev_abs": [
+        44.0,
+        27.0
+      ],
+      "smooth_stop_release_deadzone": [
+        3.0,
+        2.0
+      ],
+      "smooth_stop_release_tail2_prev_abs": [
+        44.0,
+        27.0
+      ],
+      "smooth_stop_release_ratio": [
+        0.4396551724137931,
+        0.45098039215686275
+      ],
+      "smooth_stop_release_peak_ratio": [
+        0.8903225806451613,
+        0.7631578947368421
+      ],
+      "smooth_stop_release_max_ratio": [
+        0.92,
+        0.92
+      ],
+      "smooth_stop_release_prob_threshold": 0.45,
+      "smooth_stop_release_rows": [
+        70346,
+        57751
+      ],
+      "smooth_stop_release_source": "post_peak_sequence_curve_from_[prev_vel,target_seq]",
+      "smooth_stop_release_quantiles": {
+        "brake_release_curve_ratio_q": 0.65,
+        "brake_release_curve_peak_ratio_q": 0.85,
+        "brake_release_curve_cap_q": 0.9,
+        "brake_release_terminal_prev_vel_q": 0.95,
+        "brake_release_deadzone_q": 0.15,
+        "brake_release_tail2_prev_abs_q": 0.75,
+        "brake_release_curve_min_peak": 10.0
+      }
+    },
+    "runtime_geometry_guard": {
+      "revision": "v17_momentum_geometry_release_dataset_2026_06_27_b",
+      "enabled": true,
+      "max_stable_width_absmax": 851.83251953125,
+      "max_stable_width_count": 851.83251953125,
+      "max_stable_height_count": 647.7197265625,
+      "max_stable_inside_center_absmax": 250.48130798339844,
+      "max_stable_inside_center_abs": 250.48130798339844,
+      "close_distance_xz": 0.5593022108078003,
+      "width_guard_requires_close": false,
+      "route_unstable_inside_to": "HOMING_CORRECTION",
+      "source": "weighted_quantiles_from_stable_hold_rows; unstable inside never routes to HOLD/BRAKE",
+      "quantiles": {
+        "geometry_width_q": 0.985,
+        "geometry_width_min_mul": 2.0,
+        "geometry_inside_center_q": 0.995,
+        "geometry_close_distance_q": 0.05
+      },
+      "row_counts": {
+        "stable_geometry_rows": 4779,
+        "inside_geometry_rows": 42617
+      }
+    },
+    "analysis_summary": {
+      "windows": 85604,
+      "weight_sum": 48545.464951287955,
+      "phase_distribution": {
+        "WAIT_REACTION": {
+          "rows": 892,
+          "weight_share": 0.01265116824423968,
+          "target_absmax": {
+            "count": 892,
+            "mean": 10.824370602328171,
+            "max": 93.0,
+            "p50": 8.0,
+            "p90": 23.0,
+            "p95": 31.0,
+            "p99": 51.0
+          }
+        },
+        "BALLISTIC_BURST": {
+          "rows": 31028,
+          "weight_share": 0.513768909992592,
+          "target_absmax": {
+            "count": 31028,
+            "mean": 46.84131521962136,
+            "max": 639.0,
+            "p50": 27.0,
+            "p90": 125.0,
+            "p95": 158.0,
+            "p99": 256.0
+          }
+        },
+        "HOMING_CORRECTION": {
+          "rows": 24718,
+          "weight_share": 0.17275766270188733,
+          "target_absmax": {
+            "count": 24718,
+            "mean": 24.621614076276483,
+            "max": 372.0,
+            "p50": 4.0,
+            "p90": 79.0,
+            "p95": 110.0,
+            "p99": 178.0
+          }
+        },
+        "BRAKE_SETTLE": {
+          "rows": 15303,
+          "weight_share": 0.11148859538343396,
+          "target_absmax": {
+            "count": 15303,
+            "mean": 10.223610747140363,
+            "max": 374.0,
+            "p50": 0.0,
+            "p90": 34.0,
+            "p95": 48.0,
+            "p99": 83.0
+          }
+        },
+        "HOLD_TRACK": {
+          "rows": 2596,
+          "weight_share": 0.014580652715319822,
+          "target_absmax": {
+            "count": 2596,
+            "mean": 0.003690882140077772,
+            "max": 15.0,
+            "p50": 0.0,
+            "p90": 0.0,
+            "p95": 0.0,
+            "p99": 0.0
+          }
+        },
+        "REACQUIRE": {
+          "rows": 11067,
+          "weight_share": 0.17475301096252727,
+          "target_absmax": {
+            "count": 11067,
+            "mean": 66.96756905195085,
+            "max": 522.0,
+            "p50": 47.0,
+            "p90": 144.0,
+            "p95": 182.0,
+            "p99": 284.0
+          }
+        }
+      },
+      "context_counts": {
+        "inside_zero_rows": 12699,
+        "inside_move_rows": 29918,
+        "outside_zero_rows": 4306,
+        "outside_move_rows": 38681,
+        "stable_hold_rows": 4779,
+        "brake_profile_rows": 9285,
+        "brake_limit_rows": 24636,
+        "settle_move_rows": 21154,
+        "lock_move_rows": 6924,
+        "lock_zero_rows": 940,
+        "settle_zero_rows": 6980,
+        "sparse_inside_zero_rows": 4779,
+        "recovery_outside_rows": 9548,
+        "synthetic_recovery_rows": 9548,
+        "release_tail_rows": 0,
+        "close_inside_rows": 0
+      },
+      "target_absmax": {
+        "count": 85604,
+        "mean": 41.29877904248347,
+        "max": 639.0,
+        "p50": 21.0,
+        "p90": 118.0,
+        "p95": 145.0,
+        "p99": 244.0
+      },
+      "target_acc_absmax": {
+        "count": 85604,
+        "mean": 30.297487273366915,
+        "max": 639.0,
+        "p50": 16.0,
+        "p90": 79.0,
+        "p95": 119.0,
+        "p99": 170.0
+      },
+      "target_jerk_absmax": {
+        "count": 85604,
+        "mean": 36.337239200973656,
+        "max": 1278.0,
+        "p50": 21.0,
+        "p90": 91.0,
+        "p95": 132.0,
+        "p99": 202.0
+      },
+      "base_controller_mae": 17.281497410431
+    },
+    "runtime_sign_guard": {
+      "revision": "v17_momentum_geometry_release_dataset_2026_06_27_b",
+      "enabled": true,
+      "moving_phases": [
+        "BALLISTIC_BURST",
+        "HOMING_CORRECTION",
+        "REACQUIRE"
+      ],
+      "small_count_absmax": 3.0,
+      "anchor_count_absmax": 2.0,
+      "lead_anchor_absmax": 43.76739501953125,
+      "prev_vel_anchor_absmax": 4.0,
+      "deadzone_count": 0.5,
+      "opposite_residual_ratio": 0.75,
+      "opposite_residual_ratio_source": "weighted_quantile_of_human_residual_that_reduces_base_without_changing_target_sign",
+      "pre_guard_raw_cross_axis_rate": 0.0,
+      "quantiles": {
+        "sign_small_count_q": 0.1,
+        "sign_anchor_count_q": 0.05,
+        "sign_lead_anchor_q": 0.1,
+        "sign_prev_vel_anchor_q": 0.2,
+        "opposite_residual_ratio_q": 0.75,
+        "opposite_residual_max_ratio": 0.75
+      }
+    },
+    "runtime_axis_sparsity": {
+      "revision": "v17_momentum_geometry_release_dataset_2026_06_27_b",
+      "enabled": true,
+      "axis_names": [
+        "yaw",
+        "pitch"
+      ],
+      "move_count_threshold": 0.5,
+      "axis_zero_lead_abs": [
+        40.76667404174805,
+        33.42401099856943
+      ],
+      "axis_zero_vel_abs": [
+        14.0,
+        7.0
+      ],
+      "axis_zero_delta_abs": [
+        9.319045066833496,
+        11.337097764015198
+      ],
+      "axis_move_lead_abs": [
+        23.295242309570312,
+        19.099434856325388
+      ],
+      "axis_move_delta_abs": [
+        5.325168609619141,
+        6.478341579437256
+      ],
+      "axis_guard_max_count": [
+        3.0,
+        1.0
+      ],
+      "axis_zero_lead_cap_mul": 1.75,
+      "axis_zero_delta_cap_mul": 1.75,
+      "axis_tiny_only": true,
+      "inside_only": false,
+      "phase_names": [
+        "BALLISTIC_BURST",
+        "HOMING_CORRECTION",
+        "REACQUIRE"
+      ],
+      "dominant_axis_min_count": 10.0,
+      "axis_stop_prob": 0.22,
+      "axis_strict_stop_prob": 0.1,
+      "axis_gate_power": 1.0,
+      "runtime_mode": "dominant_axis_zero_other_only",
+      "source": "weighted_quantiles_from_axis_zero_and_axis_move_rows_runtime_dominant_axis_cleanup",
+      "quantiles": {
+        "axis_zero_lead_q": 0.9,
+        "axis_zero_vel_q": 0.9,
+        "axis_zero_delta_q": 0.9,
+        "axis_move_lead_q": 0.15,
+        "axis_move_delta_q": 0.2,
+        "axis_guard_max_count_q": 0.1
+      },
+      "axis_pattern_weight_share": {
+        "yaw_only": 0.07629910389327926,
+        "pitch_only": 0.022864502323664358,
+        "both_move": 0.7431946743256627,
+        "both_zero": 0.15764171945739366
+      }
+    },
+    "runtime_motor_guard": {
+      "revision": "v17_momentum_geometry_release_dataset_2026_06_27_b",
+      "enabled": true,
+      "geometry_guard_enabled": true,
+      "inside_min_stable_distance_xz": 0.5593022108078003,
+      "inside_max_stable_width_count": 851.83251953125,
+      "inside_max_stable_height_count": 647.7197265625,
+      "inside_max_stable_center_abs_count": 250.48130798339844,
+      "release_floor_enabled": true,
+      "release_floor_inside_only": true,
+      "release_floor_ratio_mul": 0.3,
+      "release_floor_max_ratio": 0.88,
+      "allow_large_lead_flip": true,
+      "release_floor_lead_flip_abs": 43.76739501953125,
+      "release_floor_phases": [
+        "BALLISTIC_BURST",
+        "HOMING_CORRECTION",
+        "BRAKE_SETTLE",
+        "HOLD_TRACK",
+        "REACQUIRE"
+      ],
+      "axis_sparsity_skips_momentum": true,
+      "source": "runtime sync for Java: momentum floor, stable-inside gating, axis guard momentum skip"
+    }
+  }
+}

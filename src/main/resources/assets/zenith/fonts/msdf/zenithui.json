@@ -1,0 +1,4070 @@
+{
+  "atlas": {
+    "type": "mtsdf",
+    "distanceRange": 15,
+    "distanceRangeMiddle": 0,
+    "size": 96,
+    "width": 978,
+    "height": 2546,
+    "yOrigin": "bottom"
+  },
+  "metrics": {
+    "emSize": 1,
+    "lineHeight": 1,
+    "ascender": 1,
+    "descender": 0,
+    "underlineY": 0,
+    "underlineThickness": 0
+  },
+  "glyphs": [
+    {
+      "unicode": 57344,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 2450,
+        "right": 96,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57345,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 2450,
+        "right": 194,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57346,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 2450,
+        "right": 292,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57347,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 2450,
+        "right": 390,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57348,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 2450,
+        "right": 488,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57349,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 2450,
+        "right": 586,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57350,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 2450,
+        "right": 684,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57351,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 2450,
+        "right": 782,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57352,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 2450,
+        "right": 880,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57353,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 2450,
+        "right": 978,
+        "top": 2546
+      }
+    },
+    {
+      "unicode": 57354,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 2352,
+        "right": 96,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57355,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 2352,
+        "right": 194,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57356,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 2352,
+        "right": 292,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57357,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 2352,
+        "right": 390,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57358,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 2352,
+        "right": 488,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57359,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 2352,
+        "right": 586,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57360,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 2352,
+        "right": 684,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57361,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 2352,
+        "right": 782,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57362,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 2352,
+        "right": 880,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57363,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 2352,
+        "right": 978,
+        "top": 2448
+      }
+    },
+    {
+      "unicode": 57364,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 2254,
+        "right": 96,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57365,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 2254,
+        "right": 194,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57366,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 2254,
+        "right": 292,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57367,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 2254,
+        "right": 390,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57368,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 2254,
+        "right": 488,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57369,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 2254,
+        "right": 586,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57370,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 2254,
+        "right": 684,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57371,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 2254,
+        "right": 782,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57372,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 2254,
+        "right": 880,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57373,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 2254,
+        "right": 978,
+        "top": 2350
+      }
+    },
+    {
+      "unicode": 57374,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 2156,
+        "right": 96,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57375,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 2156,
+        "right": 194,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57376,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 2156,
+        "right": 292,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57377,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 2156,
+        "right": 390,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57378,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 2156,
+        "right": 488,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57379,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 2156,
+        "right": 586,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57380,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 2156,
+        "right": 684,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57381,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 2156,
+        "right": 782,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57382,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 2156,
+        "right": 880,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57383,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 2156,
+        "right": 978,
+        "top": 2252
+      }
+    },
+    {
+      "unicode": 57384,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 2058,
+        "right": 96,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57385,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 2058,
+        "right": 194,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57386,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 2058,
+        "right": 292,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57387,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 2058,
+        "right": 390,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57388,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 2058,
+        "right": 488,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57389,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 2058,
+        "right": 586,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57390,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 2058,
+        "right": 684,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57391,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 2058,
+        "right": 782,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57392,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 2058,
+        "right": 880,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57393,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 2058,
+        "right": 978,
+        "top": 2154
+      }
+    },
+    {
+      "unicode": 57394,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1960,
+        "right": 96,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57395,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1960,
+        "right": 194,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57396,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1960,
+        "right": 292,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57397,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1960,
+        "right": 390,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57398,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1960,
+        "right": 488,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57399,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1960,
+        "right": 586,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57400,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1960,
+        "right": 684,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57401,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1960,
+        "right": 782,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57402,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1960,
+        "right": 880,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57403,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1960,
+        "right": 978,
+        "top": 2056
+      }
+    },
+    {
+      "unicode": 57404,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1862,
+        "right": 96,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57405,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1862,
+        "right": 194,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57406,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1862,
+        "right": 292,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57407,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1862,
+        "right": 390,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57408,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1862,
+        "right": 488,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57409,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1862,
+        "right": 586,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57410,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1862,
+        "right": 684,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57411,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1862,
+        "right": 782,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57412,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1862,
+        "right": 880,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57413,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1862,
+        "right": 978,
+        "top": 1958
+      }
+    },
+    {
+      "unicode": 57414,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1764,
+        "right": 96,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57415,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1764,
+        "right": 194,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57416,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1764,
+        "right": 292,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57417,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1764,
+        "right": 390,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57418,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1764,
+        "right": 488,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57419,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1764,
+        "right": 586,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57420,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1764,
+        "right": 684,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57421,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1764,
+        "right": 782,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57422,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1764,
+        "right": 880,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57423,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1764,
+        "right": 978,
+        "top": 1860
+      }
+    },
+    {
+      "unicode": 57424,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1666,
+        "right": 96,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57425,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1666,
+        "right": 194,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57426,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1666,
+        "right": 292,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57427,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1666,
+        "right": 390,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57428,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1666,
+        "right": 488,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57429,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1666,
+        "right": 586,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57430,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1666,
+        "right": 684,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57431,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1666,
+        "right": 782,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57432,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1666,
+        "right": 880,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57433,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1666,
+        "right": 978,
+        "top": 1762
+      }
+    },
+    {
+      "unicode": 57434,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1568,
+        "right": 96,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57435,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1568,
+        "right": 194,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57436,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1568,
+        "right": 292,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57437,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1568,
+        "right": 390,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57438,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1568,
+        "right": 488,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57439,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1568,
+        "right": 586,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57440,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1568,
+        "right": 684,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57441,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1568,
+        "right": 782,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57442,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1568,
+        "right": 880,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57443,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1568,
+        "right": 978,
+        "top": 1664
+      }
+    },
+    {
+      "unicode": 57444,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1470,
+        "right": 96,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57445,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1470,
+        "right": 194,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57446,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1470,
+        "right": 292,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57447,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1470,
+        "right": 390,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57448,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1470,
+        "right": 488,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57449,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1470,
+        "right": 586,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57450,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1470,
+        "right": 684,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57451,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1470,
+        "right": 782,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57452,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1470,
+        "right": 880,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57453,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1470,
+        "right": 978,
+        "top": 1566
+      }
+    },
+    {
+      "unicode": 57454,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1372,
+        "right": 96,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57455,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1372,
+        "right": 194,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57456,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1372,
+        "right": 292,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57457,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1372,
+        "right": 390,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57458,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1372,
+        "right": 488,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57459,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1372,
+        "right": 586,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57460,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1372,
+        "right": 684,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57461,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1372,
+        "right": 782,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57462,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1372,
+        "right": 880,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57463,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1372,
+        "right": 978,
+        "top": 1468
+      }
+    },
+    {
+      "unicode": 57464,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1274,
+        "right": 96,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57465,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1274,
+        "right": 194,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57466,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1274,
+        "right": 292,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57467,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1274,
+        "right": 390,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57468,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1274,
+        "right": 488,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57469,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1274,
+        "right": 586,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57470,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1274,
+        "right": 684,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57471,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1274,
+        "right": 782,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57472,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1274,
+        "right": 880,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57473,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1274,
+        "right": 978,
+        "top": 1370
+      }
+    },
+    {
+      "unicode": 57474,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1176,
+        "right": 96,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57475,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1176,
+        "right": 194,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57476,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1176,
+        "right": 292,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57477,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1176,
+        "right": 390,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57478,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1176,
+        "right": 488,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57479,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1176,
+        "right": 586,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57480,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1176,
+        "right": 684,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57481,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1176,
+        "right": 782,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57482,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1176,
+        "right": 880,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57483,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1176,
+        "right": 978,
+        "top": 1272
+      }
+    },
+    {
+      "unicode": 57484,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 1078,
+        "right": 96,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57485,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 1078,
+        "right": 194,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57486,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 1078,
+        "right": 292,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57487,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 1078,
+        "right": 390,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57488,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 1078,
+        "right": 488,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57489,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 1078,
+        "right": 586,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57490,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 1078,
+        "right": 684,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57491,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 1078,
+        "right": 782,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57492,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 1078,
+        "right": 880,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57493,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 1078,
+        "right": 978,
+        "top": 1174
+      }
+    },
+    {
+      "unicode": 57494,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 980,
+        "right": 96,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57495,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 980,
+        "right": 194,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57496,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 980,
+        "right": 292,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57497,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 980,
+        "right": 390,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57498,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 980,
+        "right": 488,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57499,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 980,
+        "right": 586,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57500,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 980,
+        "right": 684,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57501,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 980,
+        "right": 782,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57502,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 980,
+        "right": 880,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57503,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 980,
+        "right": 978,
+        "top": 1076
+      }
+    },
+    {
+      "unicode": 57504,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 882,
+        "right": 96,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57505,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 882,
+        "right": 194,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57506,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 882,
+        "right": 292,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57507,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 882,
+        "right": 390,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57508,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 882,
+        "right": 488,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57509,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 882,
+        "right": 586,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57510,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 882,
+        "right": 684,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57511,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 882,
+        "right": 782,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57512,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 882,
+        "right": 880,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57513,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 882,
+        "right": 978,
+        "top": 978
+      }
+    },
+    {
+      "unicode": 57514,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 784,
+        "right": 96,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57515,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 784,
+        "right": 194,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57516,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 784,
+        "right": 292,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57517,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 784,
+        "right": 390,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57518,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 784,
+        "right": 488,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57519,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 784,
+        "right": 586,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57520,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 784,
+        "right": 684,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57521,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 784,
+        "right": 782,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57522,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 784,
+        "right": 880,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57523,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 784,
+        "right": 978,
+        "top": 880
+      }
+    },
+    {
+      "unicode": 57524,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 686,
+        "right": 96,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57525,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 686,
+        "right": 194,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57526,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 686,
+        "right": 292,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57527,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 686,
+        "right": 390,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57528,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 686,
+        "right": 488,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57529,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 686,
+        "right": 586,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57530,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 686,
+        "right": 684,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57531,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 686,
+        "right": 782,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57532,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 686,
+        "right": 880,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57533,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 686,
+        "right": 978,
+        "top": 782
+      }
+    },
+    {
+      "unicode": 57534,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 588,
+        "right": 96,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57535,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 588,
+        "right": 194,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57536,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 588,
+        "right": 292,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57537,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 588,
+        "right": 390,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57538,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 588,
+        "right": 488,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57539,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 588,
+        "right": 586,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57540,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 588,
+        "right": 684,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57541,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 588,
+        "right": 782,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57542,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 588,
+        "right": 880,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57543,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 588,
+        "right": 978,
+        "top": 684
+      }
+    },
+    {
+      "unicode": 57544,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 490,
+        "right": 96,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57545,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 490,
+        "right": 194,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57546,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 490,
+        "right": 292,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57547,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 490,
+        "right": 390,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57548,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 490,
+        "right": 488,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57549,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 490,
+        "right": 586,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57550,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 490,
+        "right": 684,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57551,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 490,
+        "right": 782,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57552,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 490,
+        "right": 880,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57553,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 490,
+        "right": 978,
+        "top": 586
+      }
+    },
+    {
+      "unicode": 57554,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 392,
+        "right": 96,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57555,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 392,
+        "right": 194,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57556,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 392,
+        "right": 292,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57557,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 392,
+        "right": 390,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57558,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 392,
+        "right": 488,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57559,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 392,
+        "right": 586,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57560,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 392,
+        "right": 684,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57561,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 392,
+        "right": 782,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57562,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 392,
+        "right": 880,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57563,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 392,
+        "right": 978,
+        "top": 488
+      }
+    },
+    {
+      "unicode": 57564,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 294,
+        "right": 96,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57565,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 294,
+        "right": 194,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57566,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 294,
+        "right": 292,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57567,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 294,
+        "right": 390,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57568,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 294,
+        "right": 488,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57569,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 294,
+        "right": 586,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57570,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 294,
+        "right": 684,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57571,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 294,
+        "right": 782,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57572,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 294,
+        "right": 880,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57573,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 294,
+        "right": 978,
+        "top": 390
+      }
+    },
+    {
+      "unicode": 57574,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 196,
+        "right": 96,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57575,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 196,
+        "right": 194,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57576,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 196,
+        "right": 292,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57577,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 196,
+        "right": 390,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57578,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 196,
+        "right": 488,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57579,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 196,
+        "right": 586,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57580,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 196,
+        "right": 684,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57581,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 196,
+        "right": 782,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57582,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 196,
+        "right": 880,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57583,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 196,
+        "right": 978,
+        "top": 292
+      }
+    },
+    {
+      "unicode": 57584,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 98,
+        "right": 96,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57585,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 98,
+        "right": 194,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57586,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 98,
+        "right": 292,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57587,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 294,
+        "bottom": 98,
+        "right": 390,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57588,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 392,
+        "bottom": 98,
+        "right": 488,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57589,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 490,
+        "bottom": 98,
+        "right": 586,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57590,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 588,
+        "bottom": 98,
+        "right": 684,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57591,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 686,
+        "bottom": 98,
+        "right": 782,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57592,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 784,
+        "bottom": 98,
+        "right": 880,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57593,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 882,
+        "bottom": 98,
+        "right": 978,
+        "top": 194
+      }
+    },
+    {
+      "unicode": 57594,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 96,
+        "top": 96
+      }
+    },
+    {
+      "unicode": 57595,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 98,
+        "bottom": 0,
+        "right": 194,
+        "top": 96
+      }
+    },
+    {
+      "unicode": 57596,
+      "advance": 1,
+      "planeBounds": {
+        "left": 0,
+        "bottom": 0,
+        "right": 1,
+        "top": 1
+      },
+      "atlasBounds": {
+        "left": 196,
+        "bottom": 0,
+        "right": 292,
+        "top": 96
+      }
+    }
+  ],
+  "kerning": []
+}

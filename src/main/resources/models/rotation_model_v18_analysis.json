@@ -1,0 +1,69 @@
+{
+  "rows": 129547,
+  "segments": 1054,
+  "windows": 128862,
+  "train_windows": 115110,
+  "val_windows": 13752,
+  "mouse_gcd": 0.21217355,
+  "sample_weight": {
+    "count": 128862,
+    "mean": 0.8251470771957768,
+    "p50": 1.0,
+    "p90": 1.0,
+    "p95": 1.0,
+    "p99": 1.0,
+    "max": 1.0
+  },
+  "target_abs_yaw": {
+    "count": 128862,
+    "mean": 24.586406543520177,
+    "p50": 9.0,
+    "p90": 69.0,
+    "p95": 103.0,
+    "p99": 199.0,
+    "max": 639.0
+  },
+  "target_abs_pitch": {
+    "count": 128862,
+    "mean": 8.280618520617042,
+    "p50": 3.0,
+    "p90": 22.0,
+    "p95": 32.0,
+    "p99": 61.0,
+    "max": 230.0
+  },
+  "release_tail_axis_count": 1828.0,
+  "runtime_safety_preview": {
+    "enabled": true,
+    "max_abs_count": [
+      372.59999999999997,
+      139.14999999999998
+    ],
+    "release_floor_enabled": true,
+    "release_min_prev_count": [
+      34.0,
+      22.0
+    ],
+    "release_floor_ratio": 0.35,
+    "release_floor_max_count": 96.0,
+    "anti_flip_enabled": true
+  },
+  "runtime_feature_builder_preview": {
+    "max_stable_width_yaw_count": 234.79835510253906,
+    "max_stable_height_pitch_count": 415.8157958984375,
+    "max_stable_inside_center_count": 135.74252319335938,
+    "close_xz_threshold": 0.6479743123054504,
+    "active_center_absmax_count": 143.66085815429688
+  },
+  "closed_rollout_preview": {
+    "enabled": true,
+    "raw": "run\\rotation_recordings\\rotation_dataset_v13_simpy.csv",
+    "sidecar": "run\\rotation_recordings\\rotation_world_snapshots_v7.jsonl",
+    "world_mode": "auto",
+    "horizon": 8,
+    "limit": 320,
+    "warmup": 32,
+    "bucket_limit": 64,
+    "score": "bucketed: stable retention + outside improvement + close blowup + first-count diagnostic"
+  }
+}

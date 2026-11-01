@@ -1,0 +1,66 @@
+plugins {
+    id 'fabric-loom' version "${loom_version}"
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = 'zenith'
+}
+
+repositories {
+    mavenCentral()
+}
+
+// Встроенные jar-ы мода (Via, Baritone, Alts и т.д.) лежат в src/main/resources/META-INF/jars
+// и подключаются через fabric.mod.json -> "jars". Для компиляции берём их из libs/.
+dependencies {
+    minecraft "com.mojang:minecraft:${project.minecraft_version}"
+    mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+
+    // сторонние классы, которые лежали внутри jar (kotlin, netty, viaversion, luaj, rhino, eventapi, discord rpc ...)
+    // библиотеки ViaFabricPlus (вложенные в его jar, в dev-запуске сами не подхватываются)
+    implementation fileTree(dir: 'libs/via', include: '*.jar', exclude: 'viafabricplus-*.jar')
+    // это Fabric-моды (с access widener'ом в intermediary) — Loom должен их ремапнуть под dev
+    modImplementation fileTree(dir: 'libs/via', include: 'viafabricplus-*.jar')
+    implementation files('libs/zenith-libs.jar')
+    // вложен в jar Baritone, в dev-запуске сам не подхватывается
+    implementation files('libs/nether-pathfinder-1.4.1.jar')
+    compileOnly 'org.projectlombok:lombok:1.18.38'
+    // вложенные моды
+    // вложенные моды: в dev-запуске (runClient) их нужно подключить как обычные зависимости
+    modImplementation fileTree(dir: 'src/main/resources/META-INF/jars', include: '*.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+    options.compilerArgs << '-Xmaxerrs' << '2000'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+    withSourcesJar()
+}
+
+// как в оригинале: сторонние библиотеки упаковываются прямо в jar мода
+tasks.named('jar') {
+    from({ zipTree('libs/zenith-libs.jar') }) {
+        exclude 'META-INF/**'
+    }
+}
+
+processResources {
+    inputs.property 'version', project.version
+    filesMatching('fabric.mod.json') {
+        expand 'version': project.version
+    }
+}
+
+loom {
+    accessWidenerPath = file('src/main/resources/zenith.accesswidener')
+}

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Keybind</title>
+  <rect x="2.5" y="5" width="19" height="14" rx="3"/>
+  <path d="M6 9h.3M10 9h.3M14 9h.3M18 9h.3M6 12.5h.3M10 12.5h.3M14 12.5h4M7.5 16h9"/>
+</svg>

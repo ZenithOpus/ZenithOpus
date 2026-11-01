@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Animals</title>
+  <path d="M12 11.5c-2 0-3 1.8-4.2 3-1.1 1-2.8 1.6-2.8 3.6 0 3.7 4.7 1.5 7 1.5s7 2.2 7-1.5c0-2-1.7-2.6-2.8-3.6-1.2-1.2-2.2-3-4.2-3Z"/>
+  <ellipse cx="8.5" cy="5.8" rx="1.8" ry="2.8"/>
+  <ellipse cx="15.5" cy="5.8" rx="1.8" ry="2.8"/>
+  <circle cx="3.7" cy="10" r="1.7"/>
+  <circle cx="20.3" cy="10" r="1.7"/>
+</svg>

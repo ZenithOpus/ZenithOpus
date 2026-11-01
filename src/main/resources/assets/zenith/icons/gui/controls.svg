@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Controls</title>
+  <path d="M7 6.5h10c2.5 0 3.5 2.5 4 5l.5 4a3 3 0 0 1-5 2.5l-2.5-2H10l-2.5 2a3 3 0 0 1-5-2.5l.5-4c.5-2.5 1.5-5 4-5Z"/>
+  <path d="M7.5 9.5v5M5 12h5"/>
+  <circle cx="16" cy="10.8" r="0.85" fill="currentColor" stroke="none"/>
+  <circle cx="18.5" cy="13.2" r="0.85" fill="currentColor" stroke="none"/>
+</svg>

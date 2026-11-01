@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Prediction trajectory</title>
+  <path d="M3 19C5 9 11 3 17 5M19.5 7l.5 1M21 11v1M20 15l-.5 1M17.5 19l-1 .5"/>
+  <circle cx="3" cy="19" r="1.2" fill="currentColor" stroke="none"/>
+  <path d="m14 18 2.5 1.5L18 17"/>
+</svg>

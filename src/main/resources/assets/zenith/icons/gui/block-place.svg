@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>Place block</title>
+  <path d="m3 6 7-3 7 3v7M3 6v12l7 3 3-1M3 6l7 3 7-3M10 9v12"/>
+  <path d="M18 14v8M14 18h8"/>
+</svg>

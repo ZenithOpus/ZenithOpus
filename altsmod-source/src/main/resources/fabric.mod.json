@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "altsmod",
+  "version": "1.0.0",
+  "name": "Alts Mod",
+  "description": "In-Game Alt Manager for fast account switching.",
+  "authors": [
+    "AltsMod"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.altsmod.AltsMod"
+    ]
+  },
+  "mixins": [
+    "altsmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "\u003e\u003d0.16.0",
+    "minecraft": "1.21.11"
+  }
+}

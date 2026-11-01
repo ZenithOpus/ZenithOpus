@@ -1,0 +1,36 @@
+{
+  "vertex": "zenith:core/snow/vertex",
+  "fragment": "zenith:core/snow/fragment",
+  "samplers": [],
+  "uniforms": [
+    {
+      "name": "ModelViewMat",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]
+    },
+    {
+      "name": "ProjMat",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]
+    },
+    {
+      "name": "InverseView",
+      "type": "matrix4x4",
+      "count": 16,
+      "values": [1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0]
+    },
+    { "name": "Origin", "type": "float", "count": 3, "values": [ 0.0, 0.0, 0.0 ] },
+    { "name": "SunDir", "type": "float", "count": 3, "values": [ 0.3, 0.9, 0.3 ] },
+    { "name": "SunColor", "type": "float", "count": 3, "values": [ 1.0, 0.98, 0.94 ] },
+    { "name": "SkyColor", "type": "float", "count": 3, "values": [ 0.52, 0.56, 0.62 ] },
+    { "name": "GrainScale", "type": "float", "count": 1, "values": [ 24.0 ] },
+    { "name": "WrapPeriod", "type": "float", "count": 1, "values": [ 6144.0 ] },
+    { "name": "GrainStrength", "type": "float", "count": 1, "values": [ 1.0 ] },
+    { "name": "CrustAmount", "type": "float", "count": 1, "values": [ 0.6 ] },
+    { "name": "SparkleAmount", "type": "float", "count": 1, "values": [ 0.16 ] },
+    { "name": "Wetness", "type": "float", "count": 1, "values": [ 0.3 ] },
+    { "name": "Sheen", "type": "float", "count": 1, "values": [ 1.0 ] }
+  ]
+}

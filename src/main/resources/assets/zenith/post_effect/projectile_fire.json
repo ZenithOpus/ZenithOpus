@@ -1,0 +1,158 @@
+{
+  "targets": {
+    "swap": {},
+    "zenith_fire_reach_a": {},
+    "zenith_fire_reach_b": {}
+  },
+  "passes": [
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:entity_outline"
+        }
+      ],
+      "output": "zenith_fire_reach_a",
+      "vertex_shader": "zenith:post/screenquad_texel",
+      "fragment_shader": "zenith:post/projectile_reach",
+      "uniforms": {
+        "ZenithPost": [
+          {
+            "name": "Step",
+            "type": "float",
+            "value": 1.0
+          },
+          {
+            "name": "FromOutline",
+            "type": "float",
+            "value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "zenith_fire_reach_a"
+        }
+      ],
+      "output": "zenith_fire_reach_b",
+      "vertex_shader": "zenith:post/screenquad_texel",
+      "fragment_shader": "zenith:post/projectile_reach",
+      "uniforms": {
+        "ZenithPost": [
+          {
+            "name": "Step",
+            "type": "float",
+            "value": 5.0
+          },
+          {
+            "name": "FromOutline",
+            "type": "float",
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "zenith_fire_reach_b"
+        }
+      ],
+      "output": "zenith_fire_reach_a",
+      "vertex_shader": "zenith:post/screenquad_texel",
+      "fragment_shader": "zenith:post/projectile_reach",
+      "uniforms": {
+        "ZenithPost": [
+          {
+            "name": "Step",
+            "type": "float",
+            "value": 25.0
+          },
+          {
+            "name": "FromOutline",
+            "type": "float",
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:entity_outline"
+        },
+        {
+          "sampler_name": "Reach",
+          "target": "zenith_fire_reach_a"
+        }
+      ],
+      "output": "swap",
+      "vertex_shader": "zenith:post/screenquad_texel",
+      "fragment_shader": "zenith:post/projectile_fire",
+      "uniforms": {
+        "ZenithPost": [
+          {
+            "name": "FireColor",
+            "type": "vec4",
+            "value": [
+              1.0,
+              0.55,
+              0.12,
+              0.95
+            ]
+          },
+          {
+            "name": "EmberColor",
+            "type": "vec4",
+            "value": [
+              1.0,
+              0.92,
+              0.55,
+              0.95
+            ]
+          },
+          {
+            "name": "Time",
+            "type": "float",
+            "value": 0.0
+          },
+          {
+            "name": "KeepForeign",
+            "type": "float",
+            "value": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "swap"
+        }
+      ],
+      "output": "minecraft:entity_outline",
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

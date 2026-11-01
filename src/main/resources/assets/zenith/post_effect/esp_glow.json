@@ -1,0 +1,142 @@
+{
+  "targets": {
+    "swap": {},
+    "zenith_esp_field": {}
+  },
+  "passes": [
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:entity_outline"
+        }
+      ],
+      "output": "zenith_esp_field",
+      "vertex_shader": "zenith:post/screenquad_texel",
+      "fragment_shader": "zenith:post/esp_mask"
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "zenith_esp_field",
+          "bilinear": true
+        }
+      ],
+      "output": "swap",
+      "uniforms": {
+        "ZenithPost": [
+          {
+            "name": "BlurDir",
+            "type": "vec2",
+            "value": [
+              1.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Radius",
+            "type": "float",
+            "value": 14.0
+          }
+        ]
+      },
+      "vertex_shader": "zenith:post/screenquad_blur",
+      "fragment_shader": "zenith:post/esp_blur"
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "swap",
+          "bilinear": true
+        }
+      ],
+      "output": "zenith_esp_field",
+      "uniforms": {
+        "ZenithPost": [
+          {
+            "name": "BlurDir",
+            "type": "vec2",
+            "value": [
+              0.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Radius",
+            "type": "float",
+            "value": 14.0
+          }
+        ]
+      },
+      "vertex_shader": "zenith:post/screenquad_blur",
+      "fragment_shader": "zenith:post/esp_blur"
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "minecraft:entity_outline"
+        },
+        {
+          "sampler_name": "Glow",
+          "target": "zenith_esp_field",
+          "bilinear": true
+        }
+      ],
+      "output": "swap",
+      "vertex_shader": "zenith:post/screenquad_texel",
+      "fragment_shader": "zenith:post/esp_glow",
+      "uniforms": {
+        "ZenithPost": [
+          {
+            "name": "OutlineWidth",
+            "type": "float",
+            "value": 2.4
+          },
+          {
+            "name": "GlowStrength",
+            "type": "float",
+            "value": 1.15
+          },
+          {
+            "name": "FillOpacity",
+            "type": "float",
+            "value": 0.35
+          },
+          {
+            "name": "Pulse",
+            "type": "float",
+            "value": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "inputs": [
+        {
+          "sampler_name": "In",
+          "target": "swap"
+        }
+      ],
+      "output": "minecraft:entity_outline",
+      "vertex_shader": "minecraft:core/screenquad",
+      "fragment_shader": "minecraft:post/blit",
+      "uniforms": {
+        "BlitConfig": [
+          {
+            "name": "ColorModulate",
+            "type": "vec4",
+            "value": [
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

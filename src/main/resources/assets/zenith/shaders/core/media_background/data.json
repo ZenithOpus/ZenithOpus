@@ -1,0 +1,6 @@
+{
+    "vertex": "zenith:core/position_color",
+    "fragment": "zenith:core/media_background/fragment",
+    "samplers": [],
+    "uniforms": []
+}

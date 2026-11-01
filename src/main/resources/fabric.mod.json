@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "zenith",
+  "version": "1.0-SNAPSHOT",
+  "name": "ZenithDLC",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/zenith/icons/avatar.png",
+  "environment": "client",
+  "entrypoints": {
+    "preLaunch": [
+      "org.zenith.init.ZenithPreLaunch"
+    ],
+    "client": [
+      "org.zenith.init.ZenithInitializer"
+    ]
+  },
+  "mixins": [
+    "zenithdlc.mixins.json"
+  ],
+  "accessWidener": "zenith.accesswidener",
+  "depends": {
+    "fabricloader": "\u003e\u003d0.19.2",
+    "fabric-api": "0.141.6+1.21.11",
+    "minecraft": "1.21.11"
+  },
+  "jars": [
+    {
+      "file": "META-INF/jars/AltsMod-1.21.11.jar"
+    },
+    {
+      "file": "META-INF/jars/ViaFabricPlus-4.4.15.jar"
+    },
+    {
+      "file": "META-INF/jars/baritone-1.21.11-SNAPSHOT.jar"
+    },
+    {
+      "file": "META-INF/jars/player-animation-lib-fabric-2.0.4+1.21.11.jar"
+    },
+    {
+      "file": "META-INF/jars/zenith-addon-api-1.0-SNAPSHOT.jar"
+    },
+    {
+      "file": "META-INF/jars/zenith-figura-runtime-0.1.6-zenith.6+1.21.11.jar"
+    }
+  ]
+}

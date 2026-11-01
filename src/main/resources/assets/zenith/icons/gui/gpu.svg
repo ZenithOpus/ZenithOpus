@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <title>GPU</title>
+  <rect x="3" y="6" width="19" height="12" rx="2"/>
+  <path d="M3 3v18M8 18v3m4-3v3M18 10h1m-1 4h1"/>
+  <circle cx="10" cy="12" r="3.5"/>
+</svg>
