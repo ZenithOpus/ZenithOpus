@@ -1,1 +1,1 @@
-привет юным хацкерам, сурсы были собраны клиентом @MoluchClient и слиты в @yoezproject, спасибо всем!
+by Codex aka chatgpt
