@@ -24,6 +24,7 @@ import org.zenith.client.events.ChatSendEvent;
 import org.zenith.client.events.EntityStatusEvent;
 import org.zenith.client.events.HealthUpdateEvent;
 import org.zenith.client.events.PacketReceiveEvent;
+import org.zenith.utility.session.SharedSession;
 
 @Mixin({ClientPlayNetworkHandler.class})
 public class MixinClientPlayNetworkHandler {
@@ -37,6 +38,7 @@ public class MixinClientPlayNetworkHandler {
    private void zenith$applyBundled(Packet<?> var1, PacketListener var2) {
       if (!EventManager.hasListeners(PacketReceiveEvent.class) || !((PacketReceiveEvent)EventManager.call(new PacketReceiveEvent(var1))).isCancelled()) {
          zenith$apply(var1, var2);
+         SharedSession.getInstance().applied(var1);
       }
    }
 

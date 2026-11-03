@@ -26,6 +26,11 @@
     "world.MixinWorld"
   ],
   "client": [
+    "accessors.SessionPlayerListAccessor",
+    "screen.MixinSessionGameMenuScreen",
+    "client_core.MixinSessionLifecycle",
+    "client_core.MixinSessionFpsLimiter",
+    "entity.MixinSessionPlayer",
     "network.MixinClientConnectionChannelInit",
     "scripting.MixinScriptSound",
     "scripting.MixinScriptSkin",

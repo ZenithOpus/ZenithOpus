@@ -11,6 +11,11 @@ base {
 
 repositories {
     mavenCentral()
+    maven {
+        name = 'E4mcQuic'
+        url = 'https://maven.is-quite.gay/'
+        content { includeGroup 'io.netty.incubator' }
+    }
 }
 
 // Встроенные jar-ы мода (Via, Baritone, Alts и т.д.) лежат в src/main/resources/META-INF/jars
@@ -30,6 +35,10 @@ dependencies {
     // вложен в jar Baritone, в dev-запуске сам не подхватывается
     implementation files('libs/nether-pathfinder-1.4.1.jar')
     compileOnly 'org.projectlombok:lombok:1.18.38'
+    // Bundled internet transport. Reuse Minecraft's Netty instead of replacing its version.
+    include(implementation('io.netty.incubator:netty-incubator-codec-classes-quic:0.0.74.Final.e4mc.1') {
+        transitive = false
+    })
     // вложенные моды
     // вложенные моды: в dev-запуске (runClient) их нужно подключить как обычные зависимости
     modImplementation fileTree(dir: 'src/main/resources/META-INF/jars', include: '*.jar')
@@ -63,4 +72,29 @@ processResources {
 
 loom {
     accessWidenerPath = file('src/main/resources/zenith.accesswidener')
+}
+
+sourceSets {
+    sessionTest {
+        compileClasspath += sourceSets.main.compileClasspath + sourceSets.main.output
+        runtimeClasspath += sourceSets.main.runtimeClasspath
+    }
+}
+
+tasks.register('sessionProtocolTest', JavaExec) {
+    group = 'verification'
+    description = 'Checks LAN session framing and vanilla protocol compatibility.'
+    dependsOn sessionTestClasses
+    classpath = sourceSets.sessionTest.runtimeClasspath
+    mainClass = 'org.zenith.utility.session.SessionProtocolTest'
+}
+
+tasks.named('check') { dependsOn 'sessionProtocolTest' }
+
+tasks.register('sessionTunnelSmoke', JavaExec) {
+    group = 'verification'
+    description = 'Tests a real public e4mc relay against a temporary local Minecraft status endpoint.'
+    dependsOn sessionTestClasses
+    classpath = sourceSets.sessionTest.runtimeClasspath
+    mainClass = 'org.zenith.utility.session.PublicTunnelSmoke'
 }

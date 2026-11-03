@@ -14,9 +14,15 @@ import org.zenith.MinecraftAccess;
 import org.zenith.PacketEvent;
 import org.zenith.client.events.OutgoingPacketEvent;
 import org.zenith.client.events.SendPacketEvent;
+import io.netty.channel.ChannelHandlerContext;
+import org.zenith.utility.session.SharedSession;
 
 @Mixin({ClientConnection.class})
 public abstract class MixinClientConnection implements MinecraftAccess {
+   @Inject(method = "channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/packet/Packet;)V", at = @At("HEAD"))
+   private void zenith$captureSessionConfiguration(ChannelHandlerContext context, Packet<?> packet, CallbackInfo ci) {
+      SharedSession.getInstance().incoming((ClientConnection)(Object)this, packet);
+   }
    @Unique
    private boolean stackOverflowFix;
    @Shadow
@@ -46,6 +52,10 @@ public abstract class MixinClientConnection implements MinecraftAccess {
       cancellable = true
    )
    public void triggerSendPacketEvent(Packet<?> var1, CallbackInfo var2) {
+      if (SharedSession.getInstance().suppressOutgoing((ClientConnection)(Object)this, var1)) {
+         var2.cancel();
+         return;
+      }
       if (!this.stackOverflowFix) {
          if (EventManager.hasListeners(OutgoingPacketEvent.class)) {
             OutgoingPacketEvent var3 = new OutgoingPacketEvent(var1);

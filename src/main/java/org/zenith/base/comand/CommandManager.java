@@ -52,6 +52,7 @@ public class CommandManager {
    }
 
    private void init() {
+      this.registerCommand(new org.zenith.base.comand.impl.SessionCommand());
       this.registerCommand(new FriendCommand());
       this.registerCommand(new MacroCommand());
       this.registerCommand(new ClipCommand());
